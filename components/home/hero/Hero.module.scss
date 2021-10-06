@@ -1,0 +1,34 @@
+.hero {
+    background-image: url('../../../public/assets/images/home1.png');
+    background-size: cover;
+    background-position: 83%;
+    height: 54vh;
+    // position: absolute;
+    // // top: 0;
+    // // left: 0;
+    // width: 100%;
+    // height: 40vh;
+    // object-fit: cover;
+    // object-position: 83%;
+
+    &__container {
+        display: grid;
+        padding: .5rem;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        height: 100%;
+        // background-color: #1A4483;
+        position: relative;
+    }
+    &__data {
+        font-weight: 700;
+        align-self: center;
+        color: var(--white);
+        padding: 1rem;
+        background-color: rgba($color: #1A4483, $alpha: .3);
+    }
+    &__certificate_img {
+        width: 38vw;
+        align-self: flex-end;
+    }
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Cargador de Anfo tipo Pistolete",
+        "imgUrl": "/assets/images/pistolete1.png",
+        "description": "con protecion anti salpicaduras, con valvula de PVC de 1&quot;, con tubo de absorcion de PVC y corte diagonal de 30 grados."
+    },
+    {
+        "id": 2,
+        "name": "Alcayata de Acero",
+        "imgUrl": "/assets/images/alcayata1.png",
+        "description": "Barras dobladas y/o soldadas en fierro corrugado o liso de diversos diametros, se realiza el diseno y produccion de acuerdo a la solicitud del cliente."
+    },
+    {
+        "id": 3,
+        "name": "Niples Calvanizados y Aluminio",
+        "imgUrl": "/assets/images/niples1.png",
+        "description": "Fabricado en acero inoxidable, son piezas complementarias en el ensable de redes de tuberias metalicas."
+    },
+    {
+        "id": 4,
+        "name": "Tuberias de PVC",
+        "imgUrl": "/assets/images/tubos1.png",
+        "description": "Son tuberias de PVC,  fabricado a partir del pli cloruro de vinilo. Se utilizan para conexiones de agua, luz e instalaciones sanitarias para el caso de construccion y mineria, contamos con tuberias de PVC para el embonado de taladros largos y su posterios carguio de material explosivo.  "
+    },
+    {
+        "id": 5,
+        "name": "Barretillas de Aluminio",
+        "imgUrl": "/assets/images/barreta1.png",
+        "description": "Barretillas de tubo aluminio circular, con ranuras anti delizantes, puntas de acero y jebe de proteccion que garantiza una buena resistencia y seguridad."
+    }
+]

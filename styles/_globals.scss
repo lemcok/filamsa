@@ -45,8 +45,22 @@ h2 {
 
 // REUSABLE CSS CLASSES
 
+.grid {
+    display: grid;
+}
+
 .container {
     max-width: 968px;
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
 }
+
+
+//  scroll bar
+// ::-webkit-scrollbar {
+//     width: .60rem;
+//     background-color: var(--white);
+// }
+// ::-webkit-scrollbar-thumb {
+//     background-color: var(--primary-color-light);
+// }
