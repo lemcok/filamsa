@@ -1,6 +1,6 @@
 .footer {
-
     background-color: var(--primary-color);
+
     &__container {
         color: var(--white);
         row-gap: 3rem;
@@ -38,9 +38,8 @@
 }
 
 .footer__rights {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1.5rem;
+    display: grid;
+    row-gap: 1rem;
     text-align: center;
 
     .footer__copy,
@@ -50,11 +49,13 @@
     }
 }
 .footer__terms {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
     column-gap: 1.5rem;
     justify-content: center;
-
     
+    margin-bottom: 8px;
+
     .footer__terms_link:hover {
         color: var(--yellow);
         transition: color .3s ease;

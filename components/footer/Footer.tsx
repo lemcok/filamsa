@@ -7,7 +7,7 @@ export const Footer = ():JSX.Element => {
             <div className={`${s.footer__container} container grid`}>
                 <div className={`${s.footer__content} grid`}>
                     <div className={s.footer__data}>
-                        <h3 className={s.footer__title}>Filamsa</h3>
+                        <h3 translate='no' className={s.footer__title}>Filamsa</h3>
                         <p className={s.footer__description}>
                             Lorem ipsum dolor sit amet consectetur <br />{" "}
                             adipisicing elit. Porro praesentium illo <br />{" "}
@@ -99,7 +99,7 @@ export const Footer = ():JSX.Element => {
                 </div>
 
                 <div className={s.footer__rights}>
-                    <p className={s.footer__copy}>&#169; 2021 Lemcok. All rights reserved.</p>
+                    <p className={s.footer__copy}>&#169; 2021 Filamsa. All rights reserved.</p>
                     <div className={s.footer__terms}>
                         <Link href='#'>
                             <a className={s.footer__terms_link}>Terms & Agreements</a>
