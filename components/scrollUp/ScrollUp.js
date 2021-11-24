@@ -2,7 +2,7 @@ import s from '../home/Home.module.scss'
 import Link from 'next/link'
 import { useEffect, useState } from 'react';
 
-function ScrollUp():JSX.Element {
+function ScrollUp() {
 
     const [scrolly, setScrolly] = useState(0);
 

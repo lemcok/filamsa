@@ -1,6 +1,6 @@
 import s from './Hero.module.scss';
 
-export const Hero = ():JSX.Element => {
+export const Hero = () => {
     return (
         <div className={s.hero}>
             <img 

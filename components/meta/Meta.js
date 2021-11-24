@@ -1,12 +1,6 @@
 import Head from 'next/head'
 
-interface Props {
-    title?: string,
-    description?: string,
-    keywords?: string,
-}
-
-export const Meta = ({ title, description, keywords }: Props):JSX.Element => {
+export const Meta = ({ title, description, keywords }) => {
     return (
         <Head>
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />

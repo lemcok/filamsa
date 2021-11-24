@@ -1,8 +1,7 @@
 import '../styles/styles.scss'
-import type { AppProps } from 'next/app'
 import { Layout } from '../components/layout/Layout'
 
-function MyApp({ Component, pageProps }: AppProps): JSX.Element {
+function MyApp({ Component, pageProps }) {
   return (
     <Layout>
       <Component {...pageProps} />
@@ -10,3 +9,5 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   )
 }
 export default MyApp
+
+

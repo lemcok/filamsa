@@ -1,13 +1,6 @@
 import s from '../Home.module.scss';
 
-interface Props {
-    id: number,
-    name: string,
-    description: string,
-    imgUrl: string
-}
-
-export const Product = ({ name, description, imgUrl }:Props):JSX.Element => {
+export const Product = ({ name, description, imgUrl }) => {
     return (
         <div>
             <div className={s.product}>

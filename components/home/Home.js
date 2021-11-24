@@ -10,7 +10,7 @@ const DynamicComponentWithNoSSR = dynamic(
     { ssr: false }
 )
 
-export const Home = ():JSX.Element => {
+export const Home = () => {
 
     return (
         <div className={s.home}>

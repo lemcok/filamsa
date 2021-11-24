@@ -1,17 +1,17 @@
 import Link from 'next/link'
-import { FormEvent, useState } from 'react';
+import { useState } from 'react';
 import { useRouter } from 'next/router'
 
 import s from './Header.module.scss';
 
 
-export const Header = (): JSX.Element => {
+export const Header = () => {
 
     const router = useRouter();
 
-    const [toggle, setToggle] = useState<boolean>(false);
+    const [toggle, setToggle] = useState(false);
 
-    const handlePushToHome = (e: FormEvent<HTMLDivElement>) => {
+    const handlePushToHome = (e) => {
         e.preventDefault();
         router.push('/');
     }

@@ -2,7 +2,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 class MyDocument extends Document {
 
-    render():JSX.Element {
+    render() {
         return (
             <Html lang='es'>
                 <Head>

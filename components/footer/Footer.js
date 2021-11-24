@@ -1,7 +1,7 @@
 import s from './Footer.module.scss';
 import Link from 'next/link'
 
-export const Footer = ():JSX.Element => {
+export const Footer = () => {
     return (
         <footer className={`${s.footer} section`}>
             <div className={`${s.footer__container} container grid`}>

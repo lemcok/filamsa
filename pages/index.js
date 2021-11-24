@@ -1,8 +1,7 @@
-import type { NextPage } from 'next'
 import { Home } from '../components/home/Home'
 import { Meta } from '../components/meta/Meta'
 
-const index: NextPage = () => {
+const index = () => {
   return (
     <>
       <Meta />
