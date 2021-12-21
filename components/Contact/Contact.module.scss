@@ -1,0 +1,35 @@
+.contact {
+   display: grid;
+   gap: 3rem;
+}
+.data {
+   padding: 1.2rem;
+
+   display: grid;
+   place-content: center;
+   gap: 1rem;
+   grid-template-columns: repeat(auto-fit, 12rem);
+
+   &__item {
+      padding: 1rem;
+   }
+}
+.section_form{  
+   padding: .5rem 2rem;  
+   color: #D87D61;
+}
+
+@media ( min-width: 768px ){
+   .contact {
+      max-width: 52rem;
+      margin: 0 auto;
+      padding: 5rem 0;
+      grid-template-columns: repeat(2, 1fr);
+   }
+   .data {
+      padding-top: 4rem;
+      place-content: start center;
+      grid-template-columns: auto;
+   }
+}
+

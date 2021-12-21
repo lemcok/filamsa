@@ -1,9 +1,7 @@
-import s from '../home/Home.module.scss'
-import Link from 'next/link'
+import s from './ScrollUp.module.scss'
 import { useEffect, useState } from 'react';
 
 function ScrollUp() {
-
     const [scrolly, setScrolly] = useState(0);
 
     useEffect(() => {
@@ -26,14 +24,12 @@ function ScrollUp() {
     }
 
     return (
-        <Link href=''>
-            <a
+            <button
                 onClick={ handleScroollToTop }
                 className={ ( scrolly >= 200 ) ? `${s.scrollup} ${s.show__scroll}` : `${s.scrollup}`}
                 >
                 <i className={`ri-arrow-up-line ${s.scrollup__icon}`}></i>
-            </a>
-        </Link>
+            </button>
     );
 }
 

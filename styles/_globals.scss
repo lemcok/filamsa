@@ -23,12 +23,13 @@ ul {
 a {
     // color: inherit;
     text-decoration: none;
+    font-family: var(--body-font);
 }
 img, video {
     max-width: 100%;
     height: auto;
 }
-button, input {
+button, input , textarea {
     border: none;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
@@ -36,7 +37,7 @@ button, input {
 button {
     cursor: pointer;
 }
-input {
+input, textarea {
     outline: none;
 }
 h2 {
@@ -44,23 +45,34 @@ h2 {
 }
 
 // REUSABLE CSS CLASSES
-
 .grid {
     display: grid;
 }
-
 .container {
     max-width: 968px;
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
 }
 
+@media ( min-width: 768px ){
+    body {
+        margin: calc(var(--header-height) + .5rem) 0 0 0;
+    }
+    
+}
+@media ( min-width: 1024px ){
+    .container {
+        max-width: 1160px;
+    }
+}
 
-//  scroll bar
-// ::-webkit-scrollbar {
-//     width: .60rem;
-//     background-color: var(--white);
-// }
-// ::-webkit-scrollbar-thumb {
-//     background-color: var(--primary-color-light);
-// }
+/*========== SCROLL BAR ==========*/
+::-webkit-scrollbar {
+    width: .63rem;
+    background-color: rgba(23, 64, 134, 0.84);
+    border-radius: .5rem;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var( --secondary-color );
+    border-radius: .5rem;
+  }

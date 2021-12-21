@@ -1,0 +1,62 @@
+.form{
+
+   margin-bottom: 3.5rem;
+
+   &__title {
+      color: var(--primary-color);
+      margin-bottom: .7rem;
+      text-align: center;
+   }
+   &__control_group{
+      display: flex;
+      flex-direction: column;
+      padding: 1rem 0;
+
+      .label__requied_indicator{
+         margin-left: 3px;
+         color: var(--secondary-color);
+      }
+   }
+
+   label {
+      color: var(--primary-color);
+   }
+
+   .form_input {
+      color: #21252B;
+      border: 1px solid var(--secondary-color);
+      border-radius: .25rem;
+      margin-top: .5rem;
+      padding: .57rem .8rem;
+   }
+
+   .btn__send{
+      border-radius: .4rem;
+      background-color: var(--yellow);
+      color: #1A4A9C;
+      font-size: 1.1rem;
+      font-weight: 600;
+      padding: .7rem 1.5rem;
+      margin-top: 1rem;
+      display: flex;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+      transition: .3s;
+
+      .btn__icon{
+         font-weight: 500;
+         margin-left: .4rem;
+         font-size: 1.7rem;
+         align-self: center;
+         top: 80%;
+      }
+   }
+   .btn__send:hover {
+      // background-color: #e7bf09;
+   }
+   .btn__send:active {
+      background-color: #dbb508;
+   }
+
+
+}

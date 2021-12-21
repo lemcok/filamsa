@@ -1,12 +1,8 @@
+import { About } from "../components/About/About";
 
 const about = () => {
     return (
-        <div>
-            <p>about</p>
-        </div>
+        <About />
     );
 }
-// "react/prop-types": "off",
-//         "react/react-in-jsx-scope": "off",
-
 export default about;

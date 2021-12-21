@@ -1,0 +1,110 @@
+.about{
+   display: grid;
+   gap: 3rem;
+   margin: 0 auto;
+   max-width: 990px;
+}
+
+.card {
+   &__img {
+      border-radius: .25rem;
+      width: 100%;
+   }
+   &__body {
+      padding: 1rem;
+   }
+   &__body_title {
+      color: var(--primary-color);
+      margin-bottom: .45rem;
+   }
+}
+.about__middle_img{
+   display: block;
+   margin: 0 auto;
+   border-radius: .2rem;
+   margin-bottom: 4.5rem;
+
+   width: 400px;
+   height: 200px;
+
+   object-fit: cover;
+   object-position: 85%;
+}
+
+.mision_vision {
+   padding: 0 1rem;
+   margin-bottom: 3.3rem;
+   text-align: center;
+
+   display: grid;
+   row-gap: 1.5rem;
+
+   &__title {
+      color: var(--primary-color);
+      margin-bottom: .4rem;
+   }
+}
+
+@media ( min-width: 480px ){
+   .about {
+      max-width: 40rem;
+      row-gap: 4rem;
+   }
+   .card {
+      &__img{
+         margin: 0 auto;
+      }
+   }
+
+   .mision_vision {
+      row-gap: 3.8rem;
+   }
+}
+
+@media ( min-width: 768px ){
+   .about {
+      max-width: 50rem;
+      row-gap: 7.7rem;
+      padding-top: 3rem;
+   }
+   .card {
+      padding: 0 1rem;
+
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      column-gap: 2rem;
+
+      &__section_img {
+         display: grid;
+         place-content: center;
+      }
+      &__body {
+         display: grid;
+         place-content: center;
+      }
+   }
+
+   .mision_vision {
+      grid-template-columns: repeat(2,1fr);
+      column-gap: 3rem;
+   }
+}
+
+@media ( min-width: 1100px ){
+   .about {
+      max-width: 60rem;
+      row-gap: 7rem;
+      padding-top: 3rem;
+   }
+   .card {
+      column-gap: 5rem;
+
+      &__body_title {
+         text-align: center;
+         margin-bottom: 1rem;
+      }
+   }
+   .mision_vision{
+      margin-bottom: 5.5rem;
+   }
+}
