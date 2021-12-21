@@ -5,7 +5,7 @@ export const Hero = () => {
       <div className={s.hero}>
          <div className={`${s.hero__container}`}>
             <img
-               src="/assets/images/hero1.png"
+               src="/assets/images/hero1.jpg"
                className={s.hero__img}
                alt="hero image"
             />
