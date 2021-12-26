@@ -11,8 +11,8 @@ export const Footer = () => {
                      Filamsa
                   </h3>
                   <p className={s.footer__description}>
-                     Lorem ipsum dolor sit amet consectetur <br /> adipisicing
-                     elit. Porro praesentium illo <br /> atque expedita?
+                     Brindamos materiales y soluciones de calidad para la minería y construcción. <br /><br />
+                     ¡Nuestro compromiso contigo!
                   </p>
 
                   <div>

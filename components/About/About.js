@@ -19,21 +19,24 @@ export const About = () => {
                <div className={s.card__body}>
                   <h1 className={s.card__body_title}>¿Quienes Somos?</h1>
                   <p className={s.card__body_texto}>
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Adipisci sequi iusto perferendis itaque sint nihil br
-                     praesentium?
+                     En FILAMSA nos especializamos en la importación y distribución a nivel
+                     nacional de materiales de las mejores marcas de China, Tailandia, Japón y
+                     Estados Unidos. Trabajamos para distribuidores mayoristas y minoristas a
+                     nivel nacional, atendemos de manera inmediata, personalizada, por correo
+                     electrénico o teléfono.
                      <br />
                      <br />
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Officiis veritatis ipsum tenetur ullam maiores.
+                     Una de nuestras especialidades es la comercialización de maquinarias y
+                     equipos para la minería y construcción, siendo uno de nuestros principales
+                     objetivos, generar en nuestros clientes un ahorro y aumento de la
+                     productividad, ofreciendo productos de alta calidad para las diferentes
+                     unidades mineras y de la construcción.
                      <br />
                      <br />
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Officiis veritatis ipsum tenetur ullam maiores.
-                     <br />
-                     <br />
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Officiis veritatis ipsum tenetur ullam maiores.
+                     Con la trayectoria y solidez que nos respalda, FILAMSA pone a su
+                     disposición a un equipo de profesionales capacitados para la elaborarión de
+                     perfiles, expedientes técnicos para la construcción y mineria, entre otros, lo
+                     que garantizara el éxito de su proyecto.
                   </p>
                </div>
             </div>

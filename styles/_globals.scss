@@ -68,9 +68,9 @@ h2 {
 
 /*========== SCROLL BAR ==========*/
 ::-webkit-scrollbar {
-    width: .63rem;
+    width: .60rem;
     background-color: rgba(23, 64, 134, 0.84);
-    border-radius: .5rem;
+    border-radius: .12rem;
 }
 ::-webkit-scrollbar-thumb {
     background-color: var( --secondary-color );

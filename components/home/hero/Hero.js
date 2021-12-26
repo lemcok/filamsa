@@ -11,11 +11,11 @@ export const Hero = () => {
             />
 
             <div className={`${s.hero__content}`}>
-               <div className={s.hero__data}>
+               {/* <div className={s.hero__data}>
                   <span className={s.hero__data_subtitle}>
                      Tecnologia de calidad <br /> para la mineria y <br /> construccion
                   </span>
-               </div>
+               </div> */}
                <div className={s.hero__certificate_img}>
                   <img src="/assets/images/certificate.png" alt="" />
                </div>
