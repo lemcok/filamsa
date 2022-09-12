@@ -1,0 +1,18 @@
+[
+   {
+      "path_name": "home",
+      "href": "/"
+   },
+   {
+      "path_name": "products",
+      "href": "/products"
+   },
+   {
+      "path_name": "about",
+      "href": "/about"
+   },
+   {
+      "path_name": "contact",
+      "href": "/contact"
+   }
+]
